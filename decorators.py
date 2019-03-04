@@ -1,14 +1,14 @@
 import functools
 
 
-def uppercase(func):
+def lowercase(func):
     @functools.wraps(func)
     def wrapper():
         return func().lower()
     return wrapper
 
 
-@uppercase
+@lowercase
 def lower():
     """Say hello"""
     return "Hello world!"
