@@ -19,7 +19,9 @@ print(list(map(lambda x: x**2, array)))
 print(list(filter(lambda x: x<3, array)))
 # [1, 2]
 
-# reduce fonksiyonunda lambda iki parametre alir. ilk önce listenin ilk iki parametresini alip bir deger dondurur ardından dondurdugu deger ile listenin 3. elemanını alır ve bir deger dondurur. bu sekilde son bir sonuc cıkana kadar devam eder. reduce list degil bir deger dondurur
+# reduce fonksiyonunda lambda iki parametre alir. 
+# ilk önce listenin ilk iki parametresini alip bir deger dondurur ardından dondurdugu deger ile listenin 3. elemanını alır ve bir deger dondurur.
+# bu sekilde son bir sonuc cıkana kadar devam eder. reduce list degil bir deger dondurur
 
 print(reduce((lambda x, y: x+y), array))
 # 1 + 2 = 3
