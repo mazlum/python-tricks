@@ -10,7 +10,7 @@ print(list(map(add, array)))
 
 print(list(map(lambda x: x**2, array)))
 # [1, 4, 9, 16, 25]
-# map ile map objesi olusur objenin icini görebilmek icin list e type casting y$
+# map ile map objesi olusur objenin icini görebilmek icin list e type casting yaptik
 
 
 
