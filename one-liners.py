@@ -6,7 +6,7 @@ print(deger)
 # Python
 
 # tek satirda for ile list olusturma
-# [ (listeye eklenecek degisken) for (for ile gelen data) in (for ile dolaşılan data))
+# [ (listeye eklenecek degisken) for (for ile gelen data) in (for ile dolaşılan data) ]
 
 data = [1, 2, 3, 4, 5]
 array = [ x+2 for x in data ]
