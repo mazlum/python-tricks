@@ -28,3 +28,8 @@ print(z2)
 [1, 2, [1, 2, 3]]
 [1, 2, [1, 2]]
 """
+
+# Listeyi ters çevirme 
+print('Ters l1 =>', l1[::-1])  # Ters l1 => [4, [1, 1], [1, 2, 10], 2, 1]
+
+print('Ters l2 =>', list(reversed(l2)))  # Ters l2 => [[1, 1], [1, 2, 10], 2, 1]
