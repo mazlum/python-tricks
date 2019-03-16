@@ -1,4 +1,6 @@
 import operator
+from collections import ChainMap
+from itertools import chain
 
 # Sıralama
 dictionary = {'b': 1, 'x': 10, 'a': 8, 'y': 3}
@@ -37,4 +39,16 @@ unpack(*dictionary)
 """
 ('b', 'x', 'a', 'y')
 {}
+"""
+
+# grouping dictionaries
+info1 = {'name': 'test', 'last_name': 'test'}
+info2 = {'age': 30, 'country': 'tr'}
+
+chain = ChainMap(info1, info2)
+print(chain)
+print(chain['name'])
+"""Çıktı
+ChainMap({'name': 'test', 'last_name': 'test'}, {'age': 30, 'country': 'tr'})
+test
 """
