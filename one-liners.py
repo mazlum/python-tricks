@@ -19,3 +19,9 @@ array = [ x+2 for x in data if x<3 ]
 print(array)
 # [3, 4]
 
+
+# Tek satirda dosya satirlarini okuyup listeye ekleme
+# f.readlines()'a alternatif...
+
+satirlar = [satir.strip() for satir in open('dosyaadi')]
+print(satirlar)
